@@ -37,12 +37,41 @@ main{
     border: solid 2px black;
     background-color: white;
 }
-nav {
+ul.topnav {
     display: inline-block;
-    position: sticky;
     top: 0;
-    height: 11vh;
-    width: 100vw;
-    border: black solid 2px;
-    background-color: gray;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color:black;
+   color: white;
+   position: sticky;
+   width: 100vw;
+}
+ul.topnav li {
+    float:left;
+}
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) {
+    background-color: lavender;
+}
+ul.topnav li a.active {
+    background-color: white;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+@media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
 }
