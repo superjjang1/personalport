@@ -1,0 +1,48 @@
+html, body {
+    background-image: url("https://i.imgur.com/pxx5KYQ.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-repeat: repeat;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.box{
+    width: 200px;
+    height: 400px;
+    background-color: black;
+    border: solid 2px black;
+    color: white;
+}
+.circle {
+    width: 500px;
+    height: 500px;
+    border: solid 2px black;
+    border-radius: 500px;
+    background-color: gray;
+    text-overflow: ellipsis;
+    display: flex;
+}
+.box2{
+    width: 400px;
+    height: 400px;
+    border: solid 2px black;
+    background-color: white;
+}
+nav {
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    height: 11vh;
+    width: 100vw;
+    border: black solid 2px;
+    background-color: gray;
+}
