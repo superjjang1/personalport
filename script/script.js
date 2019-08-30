@@ -10,12 +10,12 @@ function myFunction() {
 
 function aboutMe() {
     var element = document.querySelector('#About');
-    element.scrollIntoView({behavior: 'smooth'});
+    element.scrollIntoView({behavior: 'smooth',block: 'end'});
 };
 
 function interests() {
     var element = document.querySelector('#interests');
-    element.scrollIntoView({behavior: 'smooth'});
+    element.scrollIntoView({behavior: 'smooth', block:'end'});
 };
 
 function projects() {
@@ -25,8 +25,9 @@ function projects() {
 
 function skills() {
     var element = document.querySelector('#skills');
-    element.scrollIntoView({behavior: 'smooth'});
+    element.scrollIntoView({behavior: 'smooth', offsetTop: -100});
 };
+
 
 function toTop() {
     var element = document.querySelector('#toTop');
