@@ -28,3 +28,7 @@ function skills() {
     element.scrollIntoView({behavior: 'smooth'});
 };
 
+function toTop() {
+    var element = document.querySelector('#toTop');
+    element.scrollIntoView({behavior:'smooth'});
+};
