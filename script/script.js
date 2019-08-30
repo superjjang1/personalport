@@ -7,15 +7,14 @@ function myFunction() {
     }
 };
 
-
 function aboutMe() {
     var element = document.querySelector('#About');
-    element.scrollIntoView({behavior: 'smooth',block: 'end'});
+    element.scrollIntoView({behavior: 'smooth', block: 'end'});
 };
 
 function interests() {
     var element = document.querySelector('#interests');
-    element.scrollIntoView({behavior: 'smooth', block:'end'});
+    element.scrollIntoView({behavior: 'smooth'});
 };
 
 function projects() {
