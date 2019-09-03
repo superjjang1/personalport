@@ -98,10 +98,11 @@ content{
     /* position: relative; */
 }
 #pictureme {
-  background: url('https://i.imgur.com/Wim3CaZ.jpg');
+  background: url('https://i.imgur.com/aaCcObg.jpg');
   background-size: 100% auto;
-  background-position: center;
+  background-position: start;
   border-radius: 45%;
+  border: solid white 8px;
 }
 .box2{
     width: 30rem;
